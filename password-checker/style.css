@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(135deg, #da87d1, #d56bd5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .app {
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  .card {
+    background: #f3acdc;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 10px;
+    font-size: 26px;
+    color: #f481fa;
+  }
+  
+  .subtitle {
+    font-size: 14px;
+    color: #414244;
+    margin-bottom: 25px;
+  }
+  
+  .input-group {
+    position: relative;
+  }
+  
+  input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid #d1d5db;
+    border-radius: 8px;
+    transition: border-color 0.3s ease;
+  }
+  
+  input[type="password"]:focus {
+    border-color: #6366f1;
+    outline: none;
+  }
+  
+  #strength-bar {
+    height: 6px;
+    margin-top: 8px;
+    border-radius: 4px;
+    background-color: #e5e7eb;
+    transition: background-color 0.4s ease;
+  }
+  
+  #feedback {
+    margin-top: 20px;
+    font-size: 15px;
+    color: #374151;
+    min-height: 40px;
+  }
+  
+  .info {
+    text-align: left;
+    margin-top: 30px;
+  }
+  
+  .info h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .info ul {
+    padding-left: 20px;
+  }
+  
+  .info li {
+    font-size: 14px;
+    color: #4b5563;
+    margin-bottom: 5px;
+  }
+  

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Password Strength Checker</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap">
+</head>
+<body>
+  <div class="app">
+    <div class="card">
+      <h1>Password Strength Checker</h1>
+      <p class="subtitle">Enter your password to evaluate its strength and get personalized tips.</p>
+
+      <div class="input-group">
+        <input type="password" id="password" placeholder="Enter your password" autocomplete="off" />
+        <div id="strength-bar"></div>
+      </div>
+
+      <div id="feedback"></div>
+
+      <div class="info">
+        <h2>Why strong passwords matter</h2>
+        <ul>
+          <li>They protect sensitive information.</li>
+          <li>They validate your identity online.</li>
+          <li>They keep services personalized and secure.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
